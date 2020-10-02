@@ -55,6 +55,11 @@ i {
     padding: 10px;
 }
 
+footer {
+    position: relative;
+    bottom: -10px;
+ }
+
 button:hover {
     cursor: pointer;
     animation-name: background-color;
@@ -64,14 +69,14 @@ button:hover {
 
 @keyframes background-color {
     100% {
-        background-color: hsla(257, 78%, 65%, 0.87);
+        background-color: #ff0066;
         color: white;
     }
 }
 
 /******Mobile*****/
 
-@media screen and (min-width: 375px) {
+/***@media screen and (min-width: 375px) {
 
     body {
         width: 100%;
@@ -106,6 +111,6 @@ button:hover {
 
     }
 }
-
-.attribution { font-size: 11px; text-align: center; color: hsl(228, 45%, 44%); }
-.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; }
+**/
+.attribution { font-size: 11px; margin-left: 35px; color: white; }
+.attribution a { color: white; text-decoration: none; }
