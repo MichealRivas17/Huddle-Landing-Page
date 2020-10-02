@@ -71,7 +71,7 @@ button:hover {
 
 /******Mobile*****/
 
-/***@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
 
     body {
         width: 100%;
@@ -106,6 +106,6 @@ button:hover {
 
     }
 }
-**/
+
 .attribution { font-size: 11px; text-align: center; color: hsl(228, 45%, 44%); }
 .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; }
